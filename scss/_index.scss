@@ -1,0 +1,97 @@
+.mainIndex {
+    min-height: 80vh;
+    .article__header {
+        background-color: rgb(242, 242, 242);
+        min-height: 45vh;
+        .article__header--content {
+            min-height: 45vh;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 15px;
+            .h1 {
+                font-weight: bold;
+            }
+            .spanBig {
+                font-weight: bold;
+                font-size: 40px;
+            }
+        }
+    }
+    .article__body {
+        .article__body--content {
+            margin: 0 auto;
+            .container-fluid {
+                @extend .mpReset;
+                margin: 100px 0;
+                .row {
+                    @extend .mpReset;
+                    width: 100%;
+                    justify-content: space-between;
+                    margin: 10vh 0;
+                    .blogArticle {
+                        @extend .mpReset;
+                        height: 250px;
+                        width: 250px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        .img {
+                            width: 100%;
+                        }
+                        .h6 {
+                            margin: 15px 0 0 0;
+                            font-weight: bold;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1250px) {
+    .mainIndex {
+        .article__header {
+            .article__header--content {
+                .h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+        .article__body {
+            .article__body--content {
+                .container-fluid {
+                    .row {
+                        .blogArticle {
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .mainIndex {
+        .article__body {
+            .article__body--content {
+                .container-fluid {
+                    .row {
+                        flex-direction: column;
+                        align-items: center;
+                        .blogArticle {
+                            margin: 5vh 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

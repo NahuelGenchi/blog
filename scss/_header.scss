@@ -1,0 +1,19 @@
+.header {
+    min-height: 10vh;
+    background-color: rgb(242, 242, 242);
+    .navbar {
+        min-height: 10vh;
+        margin: 0 auto;
+        padding: 15px 15px 15px 5px;
+        border-bottom: 1px solid rgba(194, 194, 194, 0.5);
+        a {
+            color: black;
+        }
+        .notActive {
+            color: rgba(0, 0, 0, 0.5);
+        }
+        .active {
+            color: black;
+        }
+    }
+}
