@@ -47,6 +47,15 @@
                                 text-decoration: none;
                                 color: black;
                             }
+                            .linkBorder {
+                                line-height: 3vh;
+                                transition: border-color .15s ease-out;
+                                border-bottom: solid 2px rgba(49, 48, 48, 0);
+                            }
+                            .linkBorder:hover {
+                                color: #313030;
+                                border-color: rgba(49,48,48,.5);
+                            }
                         }
                     }
                 }

@@ -64,6 +64,13 @@ body {
             .mainIndex .article__body .article__body--content .container-fluid .row .blogArticle .h6 a {
               text-decoration: none;
               color: black; }
+            .mainIndex .article__body .article__body--content .container-fluid .row .blogArticle .h6 .linkBorder {
+              line-height: 3vh;
+              transition: border-color .15s ease-out;
+              border-bottom: solid 2px rgba(49, 48, 48, 0); }
+            .mainIndex .article__body .article__body--content .container-fluid .row .blogArticle .h6 .linkBorder:hover {
+              color: #313030;
+              border-color: rgba(49, 48, 48, 0.5); }
 
 @media (min-width: 1024px) {
   .mainIndex .article__body .article__body--content .container-fluid .row .blogArticle {
