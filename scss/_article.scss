@@ -32,7 +32,7 @@
                     line-height: 5vh;
                 }
                 .p {
-                    font-size: 1.2em;
+                    font-size: 1em;
                     font-weight: lighter;
                 }
                 .title {
@@ -44,7 +44,7 @@
                 }
                 .img {
                     width: 100%;
-                    margin: 50px 0;
+                    margin: 25px 0;
                 }
             }
         }
@@ -59,6 +59,31 @@
                     .p, .title {
                         width: 80%;
                         line-height: 5vh;
+                    }
+                    .img {
+                        margin: 50px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .mainArticle {
+        .article__header {
+            .article__header--content {
+                .h1 {
+                    width: 90%;
+                }
+            }
+        }
+        .article__body {
+            .article__body--content {
+                .container-fluid {
+                    .p {
+                        font-size: 1.2em;
+                        font-weight: lighter;
                     }
                 }
             }
