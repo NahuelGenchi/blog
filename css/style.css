@@ -140,16 +140,22 @@ body {
       .mainArticle .article__body .article__body--content .container-fluid .initialLetter {
         font-size: 2em;
         font-weight: bold; }
-      .mainArticle .article__body .article__body--content .container-fluid .img {
-        width: 100%;
-        margin: 25px 0; }
+      .mainArticle .article__body .article__body--content .container-fluid .figure {
+        width: 95%;
+        margin: 0 auto;
+        display: block; }
+        .mainArticle .article__body .article__body--content .container-fluid .figure .figcaption {
+          padding-top: 7px;
+          color: gray;
+          font-style: italic;
+          font-size: 0.8em; }
+        .mainArticle .article__body .article__body--content .container-fluid .figure .img {
+          width: 100%; }
 
 @media (min-width: 768px) {
   .mainArticle .article__body .article__body--content .container-fluid .p, .mainArticle .article__body .article__body--content .container-fluid .title {
     width: 80%;
-    line-height: 5vh; }
-  .mainArticle .article__body .article__body--content .container-fluid .img {
-    margin: 50px 0; } }
+    line-height: 5vh; } }
 
 @media (min-width: 1024px) {
   .mainArticle .article__header .article__header--content .h1 {

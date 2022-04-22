@@ -42,9 +42,19 @@
                     font-size: 2em;
                     font-weight: bold;
                 }
-                .img {
-                    width: 100%;
-                    margin: 25px 0;
+                .figure {
+                    width: 95%;
+                    margin: 0 auto;
+                    display: block;
+                    .figcaption {
+                        padding-top: 7px;
+                        color: gray;
+                        font-style: italic;
+                        font-size: 0.8em;
+                    }
+                    .img {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -59,9 +69,6 @@
                     .p, .title {
                         width: 80%;
                         line-height: 5vh;
-                    }
-                    .img {
-                        margin: 50px 0;
                     }
                 }
             }
